@@ -31,16 +31,18 @@ npx skills add yoann1231/vibe-coding-q2-huangjie@skill-a-trend-discovery -y --ag
 
 推荐验收口令：
 
-- “按 Amazon → Temu/4supply → 1688 的流程，输出 5 个候选并给出最终推荐报告。”
-- “按 V4.1 核价铁律，净利小于等于 5 的全部 PASS，并返回 GO/PASS 明细。”
-- “每个候选必须采用 Bundle、Premium、Lightweight 三选一避卷策略。”
+- “你是 loctek 公司的跨境电商战略顾问。请基于当前的 Amazon Movers & Shakers（飙升榜）趋势，结合 Temu 的全托管/JIT 模式和https://www.4supply.com/home的卖货模式，严格执行【Temu 选品参谋 V4.1】标准，为我筛选并推荐 5 款适合上架的产品。“
+
+
+最终选品报告生成在当前项目文件夹目录中
+- 单品生成器：输出 `./final_report.md`
+- 多品汇总链路：输出 `./final_reports.md`
 
 ## 4. 数据真实性说明
-
-- 亚马逊数据：真实抓取（Skill A 默认实时抓取 Amazon Movers 页面）。
+因个人用户暂无法免费获取 Amazon Temu/4supply api 以获取实时数据，因此对数据真实性进行说明。
+- 亚马逊数据：真实抓取（Skill A 实时抓取 Amazon Movers 页面）。
 - Temu/4supply 数据：当前为策略估算或人工补录，不是官方接口实时抓取。
 - 1688 数据：当前为人工询盘录入或样例成本，不是官方接口实时抓取。
-- Skill B/C/E/F 的评分、策略、核价、报告为规则计算结果，不是平台官方返回字段。
 
 ## 5. 交付要求对照
 

@@ -44,6 +44,7 @@ description: "Generate V4.1 product recommendation reports with fixed two-part s
 - `report_markdown` 必须为标准 Markdown 文本，可直接写入 `.md` 文件
 - `report_markdown` 必须同时包含“第一部分：前端营销逻辑”和“第二部分：后端生存逻辑”
 - 交付阶段默认以 Markdown 报告作为最终可读产物
+- 命令行调用时默认落盘到当前目录：单品 `./final_report.md`，多品 `./final_reports.md`
 
 ## 与 Skill E 串联
 

@@ -8,6 +8,13 @@ function readJson(filePath) {
   return JSON.parse(readFileSync(filePath, "utf8"));
 }
 
+function buildMarkdownReports(reports) {
+  return reports
+    .filter((item) => item.ok)
+    .map((item) => item.report_markdown)
+    .join("\n\n---\n\n");
+}
+
 function toCandidate(raw, manual, index) {
   return {
     product_id: `P0-${index + 1}`,
@@ -109,6 +116,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const manualData = readJson(manualPath);
     const result = runP0ManualPipeline(rawData, manualData);
     writeFileSync(outputPath, `${JSON.stringify(result, null, 2)}\n`, "utf8");
+    writeFileSync("final_reports.md", `${buildMarkdownReports(result.reports)}\n`, "utf8");
     process.stdout.write(`${JSON.stringify(result, null, 2)}\n`);
   } catch (error) {
     process.stdout.write(

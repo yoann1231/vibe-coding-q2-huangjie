@@ -1,3 +1,5 @@
+import { writeFileSync } from "node:fs";
+
 function hasText(value) {
   return typeof value === "string" && value.trim().length > 0;
 }
@@ -113,6 +115,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   try {
     const payload = process.argv[2] ? JSON.parse(process.argv[2]) : {};
     const result = generateSkillFReport(payload);
+    if (result.ok) {
+      writeFileSync("final_report.md", `${result.report_markdown}\n`, "utf8");
+      result.output_markdown_path = "final_report.md";
+    }
     process.stdout.write(`${JSON.stringify(result, null, 2)}\n`);
   } catch (error) {
     process.stdout.write(

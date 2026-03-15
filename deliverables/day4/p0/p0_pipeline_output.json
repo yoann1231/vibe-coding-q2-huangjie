@@ -13,31 +13,6 @@
       "ok": true,
       "report": {
         "product_index": 1,
-        "product_title": "Burts Bees Moisturizing Original Peppermint + burts bees moisturizing original peppermint",
-        "part_1_marketing": {
-          "amazon_heat": "24小时飙升幅度约 0%（榜单位次 #2）",
-          "blue_ocean_competition": "强化材质与设计语言，主打高感知品质并避开地板价。",
-          "safety_compliance": "需按类目核验 CE/FCC/RoHS 等要求并保持材质声明一致。",
-          "factory_instruction": "请按询盘备注优先确认 MOQ、交期与不良率条款。供应商：supplier_1。备注：样例填充，实际请替换为真实询盘价格。"
-        },
-        "part_2_survival": {
-          "temu_king_price_usd": 11.8,
-          "income_estimate_usd": 5.31,
-          "income_estimate_cny": 38.23,
-          "cost_1688_cny": 25.5,
-          "fulfillment_fee_cny": 3.5,
-          "total_cost_cny": 29,
-          "net_profit_cny": 9.23,
-          "decision": "GO"
-        },
-        "recommendation": "推荐"
-      },
-      "report_markdown": "## 📦 1. Burts Bees Moisturizing Original Peppermint + burts bees moisturizing original peppermint\n\n### 第一部分：前端营销逻辑 (卖给谁？怎么卖？)\n- 亚马逊热度：24小时飙升幅度约 0%（榜单位次 #2）\n- 蓝海竞争：强化材质与设计语言，主打高感知品质并避开地板价。\n- 安全合规：需按类目核验 CE/FCC/RoHS 等要求并保持材质声明一致。\n- 义乌或工厂找货指令：请按询盘备注优先确认 MOQ、交期与不良率条款。供应商：supplier_1。备注：样例填充，实际请替换为真实询盘价格。\n\n### 第二部分：后端生存逻辑 (V4.1 核价模型)\n- Temu 卷王价：$11.80\n- 你的收入预估 (45%)：$5.31 ≈ ¥38.23\n- 你的成本核算：\n  - 1688 拿货价：¥25.50\n  - 国内履约费：¥3.50 (固定)\n  - 总成本：¥29.00\n- 最终生死判定：\n  - 净利：¥9.23\n  - 结论：✅ GO (利润达标)\n- 推荐结论：推荐"
-    },
-    {
-      "ok": true,
-      "report": {
-        "product_index": 2,
         "product_title": "Dumpling Squishies Colorful Dumplings Stuffers + dumpling squishies colorful dumplings stuffers",
         "part_1_marketing": {
           "amazon_heat": "24小时飙升幅度约 19383%（榜单位次 #2）",
@@ -57,7 +32,32 @@
         },
         "recommendation": "推荐"
       },
-      "report_markdown": "## 📦 2. Dumpling Squishies Colorful Dumplings Stuffers + dumpling squishies colorful dumplings stuffers\n\n### 第一部分：前端营销逻辑 (卖给谁？怎么卖？)\n- 亚马逊热度：24小时飙升幅度约 19383%（榜单位次 #2）\n- 蓝海竞争：强化材质与设计语言，主打高感知品质并避开地板价。\n- 安全合规：需按类目核验 CE/FCC/RoHS 等要求并保持材质声明一致。\n- 义乌或工厂找货指令：请按询盘备注优先确认 MOQ、交期与不良率条款。供应商：supplier_2。备注：样例填充，实际请替换为真实询盘价格。\n\n### 第二部分：后端生存逻辑 (V4.1 核价模型)\n- Temu 卷王价：$14.00\n- 你的收入预估 (45%)：$6.30 ≈ ¥45.36\n- 你的成本核算：\n  - 1688 拿货价：¥31.80\n  - 国内履约费：¥3.50 (固定)\n  - 总成本：¥35.30\n- 最终生死判定：\n  - 净利：¥10.06\n  - 结论：✅ GO (利润达标)\n- 推荐结论：推荐"
+      "report_markdown": "## 📦 1. Dumpling Squishies Colorful Dumplings Stuffers + dumpling squishies colorful dumplings stuffers\n\n### 第一部分：前端营销逻辑 (卖给谁？怎么卖？)\n- 亚马逊热度：24小时飙升幅度约 19383%（榜单位次 #2）\n- 蓝海竞争：强化材质与设计语言，主打高感知品质并避开地板价。\n- 安全合规：需按类目核验 CE/FCC/RoHS 等要求并保持材质声明一致。\n- 义乌或工厂找货指令：请按询盘备注优先确认 MOQ、交期与不良率条款。供应商：supplier_2。备注：样例填充，实际请替换为真实询盘价格。\n\n### 第二部分：后端生存逻辑 (V4.1 核价模型)\n- Temu 卷王价：$14.00\n- 你的收入预估 (45%)：$6.30 ≈ ¥45.36\n- 你的成本核算：\n  - 1688 拿货价：¥31.80\n  - 国内履约费：¥3.50 (固定)\n  - 总成本：¥35.30\n- 最终生死判定：\n  - 净利：¥10.06\n  - 结论：✅ GO (利润达标)\n- 推荐结论：推荐"
+    },
+    {
+      "ok": true,
+      "report": {
+        "product_index": 2,
+        "product_title": "Burts Bees Moisturizing Original Peppermint + burts bees moisturizing original peppermint",
+        "part_1_marketing": {
+          "amazon_heat": "24小时飙升幅度约 0%（榜单位次 #2）",
+          "blue_ocean_competition": "强化材质与设计语言，主打高感知品质并避开地板价。",
+          "safety_compliance": "需按类目核验 CE/FCC/RoHS 等要求并保持材质声明一致。",
+          "factory_instruction": "请按询盘备注优先确认 MOQ、交期与不良率条款。供应商：supplier_1。备注：样例填充，实际请替换为真实询盘价格。"
+        },
+        "part_2_survival": {
+          "temu_king_price_usd": 11.8,
+          "income_estimate_usd": 5.31,
+          "income_estimate_cny": 38.23,
+          "cost_1688_cny": 25.5,
+          "fulfillment_fee_cny": 3.5,
+          "total_cost_cny": 29,
+          "net_profit_cny": 9.23,
+          "decision": "GO"
+        },
+        "recommendation": "推荐"
+      },
+      "report_markdown": "## 📦 2. Burts Bees Moisturizing Original Peppermint + burts bees moisturizing original peppermint\n\n### 第一部分：前端营销逻辑 (卖给谁？怎么卖？)\n- 亚马逊热度：24小时飙升幅度约 0%（榜单位次 #2）\n- 蓝海竞争：强化材质与设计语言，主打高感知品质并避开地板价。\n- 安全合规：需按类目核验 CE/FCC/RoHS 等要求并保持材质声明一致。\n- 义乌或工厂找货指令：请按询盘备注优先确认 MOQ、交期与不良率条款。供应商：supplier_1。备注：样例填充，实际请替换为真实询盘价格。\n\n### 第二部分：后端生存逻辑 (V4.1 核价模型)\n- Temu 卷王价：$11.80\n- 你的收入预估 (45%)：$5.31 ≈ ¥38.23\n- 你的成本核算：\n  - 1688 拿货价：¥25.50\n  - 国内履约费：¥3.50 (固定)\n  - 总成本：¥29.00\n- 最终生死判定：\n  - 净利：¥9.23\n  - 结论：✅ GO (利润达标)\n- 推荐结论：推荐"
     },
     {
       "ok": true,
