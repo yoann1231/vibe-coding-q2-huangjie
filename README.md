@@ -1,6 +1,6 @@
 # 选品智能体 Skills 交付说明（Claude Code）
 
-本 README 仅保留题目交付要求需要的信息，按 [timu.md:L98-L107](file:///Users/huangjie/project/lege2/timu.md#L98-L107) 对齐。
+本 README 仅保留题目交付要求需要的信息，按面试作业题目2 的要求对齐。
 
 ## 1. Skills 清单
 
