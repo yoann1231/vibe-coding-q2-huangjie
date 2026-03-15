@@ -31,8 +31,12 @@ function runTests() {
   assert.equal(report.ok, true);
   assert.equal(report.report.part_2_survival.decision, "GO");
   assert.equal(report.report.recommendation, "推荐");
+  assert.equal(typeof report.report_markdown, "string");
+  assert.ok(report.report_markdown.length > 50);
+  assert.match(report.report_markdown, /^##\s📦\s1\./);
   assert.match(report.report_markdown, /第一部分：前端营销逻辑/);
   assert.match(report.report_markdown, /第二部分：后端生存逻辑/);
+  assert.match(report.report_markdown, /推荐结论：推荐/);
 
   const invalid = generateSkillFReport({
     product: {

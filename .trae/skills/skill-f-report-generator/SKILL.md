@@ -38,6 +38,13 @@ description: "Generate V4.1 product recommendation reports with fixed two-part s
 - 第二部分：后端生存逻辑（Temu 卷王价、收入预估、成本核算、净利与 GO/PASS）
 - `decision = GO` 时输出“推荐”，否则输出“不推荐”
 
+## 强制约束
+
+- 必须返回 `report_markdown` 字段，不允许为空字符串
+- `report_markdown` 必须为标准 Markdown 文本，可直接写入 `.md` 文件
+- `report_markdown` 必须同时包含“第一部分：前端营销逻辑”和“第二部分：后端生存逻辑”
+- 交付阶段默认以 Markdown 报告作为最终可读产物
+
 ## 与 Skill E 串联
 
 最小闭环脚本已提供：

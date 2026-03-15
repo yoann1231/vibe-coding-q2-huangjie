@@ -3,10 +3,8 @@ import { discoverTrends } from "./trend_discovery.mjs";
 
 function runTests() {
   const result = discoverTrends();
-  assert.equal(result.ok, true);
-  assert.ok(Array.isArray(result.candidates));
-  assert.ok(result.candidates.length >= 3);
-  assert.equal(result.candidates.some((item) => item.product_id === "A-004"), false);
+  assert.equal(result.ok, false);
+  assert.equal(result.error.code, "LIVE_FETCH_REQUIRED");
 
   const custom = discoverTrends({
     candidates: [

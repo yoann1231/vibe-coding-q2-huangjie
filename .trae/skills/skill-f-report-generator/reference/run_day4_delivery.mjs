@@ -154,10 +154,12 @@ function buildMarkdownReports(reports) {
 }
 
 function writeDeliverables(acceptance, pipeline) {
+  const markdownReport = `${buildMarkdownReports(pipeline.reports)}\n`;
   mkdirSync(OUTPUT_DIR, { recursive: true });
   writeFileSync(`${OUTPUT_DIR}/acceptance_result.json`, `${JSON.stringify(acceptance, null, 2)}\n`, "utf8");
   writeFileSync(`${OUTPUT_DIR}/final_reports.json`, `${JSON.stringify(pipeline.reports, null, 2)}\n`, "utf8");
-  writeFileSync(`${OUTPUT_DIR}/final_reports.md`, `${buildMarkdownReports(pipeline.reports)}\n`, "utf8");
+  writeFileSync(`${OUTPUT_DIR}/final_reports.md`, markdownReport, "utf8");
+  writeFileSync("final_reports.md", markdownReport, "utf8");
   writeFileSync(
     `${OUTPUT_DIR}/install_and_branch.md`,
     [
