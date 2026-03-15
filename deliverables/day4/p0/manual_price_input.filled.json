@@ -1,0 +1,62 @@
+{
+  "version": "p0-manual-input-v1",
+  "generated_at": "2026-03-15T13:00:54.120Z",
+  "items": [
+    {
+      "asin": "B0054LHI5A",
+      "title": "Burts Bees Moisturizing Original Peppermint",
+      "keyword_en": "burts bees moisturizing original peppermint",
+      "temu_king_price_usd": 11.8,
+      "source_platform": "temu",
+      "source_url": "https://www.4supply.com/home",
+      "cost_1688_cny": 25.5,
+      "inquiry_supplier_name": "supplier_1",
+      "inquiry_note": "样例填充，实际请替换为真实询盘价格"
+    },
+    {
+      "asin": "B0GQGX7FR8",
+      "title": "Dumpling Squishies Colorful Dumplings Stuffers",
+      "keyword_en": "dumpling squishies colorful dumplings stuffers",
+      "temu_king_price_usd": 14,
+      "source_platform": "4supply",
+      "source_url": "https://www.4supply.com/home",
+      "cost_1688_cny": 31.8,
+      "inquiry_supplier_name": "supplier_2",
+      "inquiry_note": "样例填充，实际请替换为真实询盘价格"
+    },
+    {
+      "asin": "B0G4XY73WD",
+      "title": "acer Portable Monitor PM161Q Abmiuuzx",
+      "keyword_en": "acer portable monitor pm161q abmiuuzx",
+      "temu_king_price_usd": 16.2,
+      "source_platform": "temu",
+      "source_url": "https://www.4supply.com/home",
+      "cost_1688_cny": 38.1,
+      "inquiry_supplier_name": "supplier_3",
+      "inquiry_note": "样例填充，实际请替换为真实询盘价格"
+    },
+    {
+      "asin": "B0DW94FWJS",
+      "title": "Silonn Countertop Expanding Self Cleaning Control",
+      "keyword_en": "silonn countertop expanding self cleaning control",
+      "temu_king_price_usd": 18.4,
+      "source_platform": "4supply",
+      "source_url": "https://www.4supply.com/home",
+      "cost_1688_cny": 44.4,
+      "inquiry_supplier_name": "supplier_4",
+      "inquiry_note": "样例填充，实际请替换为真实询盘价格"
+    },
+    {
+      "asin": "B01MQWEUNO",
+      "title": "Burts Bees Natural Moisturizing Extracts",
+      "keyword_en": "burts bees natural moisturizing extracts",
+      "temu_king_price_usd": 20.6,
+      "source_platform": "temu",
+      "source_url": "https://www.4supply.com/home",
+      "cost_1688_cny": 50.7,
+      "inquiry_supplier_name": "supplier_5",
+      "inquiry_note": "样例填充，实际请替换为真实询盘价格"
+    }
+  ],
+  "generated_from": "auto_example_fill"
+}

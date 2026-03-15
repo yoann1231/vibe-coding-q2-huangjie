@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill E Profit Gate Input",
+  "type": "object",
+  "required": [
+    "temu_king_price_usd",
+    "cost_1688_cny"
+  ],
+  "properties": {
+    "temu_king_price_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "cost_1688_cny": {
+      "type": "number",
+      "minimum": 0
+    },
+    "exchange_rate_cny_per_usd": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "default": 7.2
+    },
+    "fulfillment_fee_cny": {
+      "type": "number",
+      "minimum": 0,
+      "default": 3.5
+    }
+  },
+  "additionalProperties": false
+}

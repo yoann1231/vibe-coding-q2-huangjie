@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill F Report Generator Output",
+  "type": "object",
+  "required": [
+    "ok"
+  ],
+  "properties": {
+    "ok": {
+      "type": "boolean"
+    },
+    "report": {
+      "type": "object",
+      "properties": {
+        "product_index": {
+          "type": "integer"
+        },
+        "product_title": {
+          "type": "string"
+        },
+        "part_1_marketing": {
+          "type": "object"
+        },
+        "part_2_survival": {
+          "type": "object"
+        },
+        "recommendation": {
+          "type": "string",
+          "enum": [
+            "推荐",
+            "不推荐"
+          ]
+        }
+      },
+      "required": [
+        "product_index",
+        "product_title",
+        "part_1_marketing",
+        "part_2_survival",
+        "recommendation"
+      ],
+      "additionalProperties": false
+    },
+    "report_markdown": {
+      "type": "string"
+    },
+    "error": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,10 @@
+{
+  "case_1_boundary_4_99": "PASS",
+  "case_2_boundary_5_01": "GO",
+  "case_3_each_candidate_has_strategy": "PASS",
+  "case_4_report_has_two_parts": "PASS",
+  "case_5_missing_field_error": "PASS",
+  "final_report_count": 5,
+  "go_count": 3,
+  "pass_count": 2
+}

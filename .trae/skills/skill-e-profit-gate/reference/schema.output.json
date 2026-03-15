@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill E Profit Gate Output",
+  "type": "object",
+  "required": [
+    "ok"
+  ],
+  "properties": {
+    "ok": {
+      "type": "boolean"
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "GO",
+        "PASS"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "temu_king_price_usd": {
+          "type": "number"
+        },
+        "income_estimate_usd": {
+          "type": "number"
+        },
+        "exchange_rate_cny_per_usd": {
+          "type": "number"
+        },
+        "income_estimate_cny": {
+          "type": "number"
+        },
+        "cost_1688_cny": {
+          "type": "number"
+        },
+        "fulfillment_fee_cny": {
+          "type": "number"
+        },
+        "total_cost_cny": {
+          "type": "number"
+        },
+        "net_profit_cny": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "temu_king_price_usd",
+        "income_estimate_usd",
+        "exchange_rate_cny_per_usd",
+        "income_estimate_cny",
+        "cost_1688_cny",
+        "fulfillment_fee_cny",
+        "total_cost_cny",
+        "net_profit_cny"
+      ],
+      "additionalProperties": false
+    },
+    "rule": {
+      "type": "object",
+      "properties": {
+        "income_ratio": {
+          "type": "number"
+        },
+        "go_threshold_cny": {
+          "type": "number"
+        },
+        "decision_rule": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "income_ratio",
+        "go_threshold_cny",
+        "decision_rule"
+      ],
+      "additionalProperties": false
+    },
+    "error": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

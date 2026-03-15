@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "apify-trend-analysis": {
+      "source": "apify/agent-skills",
+      "sourceType": "github",
+      "computedHash": "9a076319cef172f4175818488c5e7e0b82f421f008c822269f9d9a6c0861683a"
+    },
+    "gws-workflow-standup-report": {
+      "source": "googleworkspace/cli",
+      "sourceType": "github",
+      "computedHash": "3b13248893103f86763aa0dba12b66f9e22e127b566344805e84fd5524eb54d7"
+    },
+    "pricing-strategy": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "4312095789cc328883428b1f9bd61549ca44b376aeda8d62bb977efad017e594"
+    },
+    "recipe-generate-report-from-sheet": {
+      "source": "googleworkspace/cli",
+      "sourceType": "github",
+      "computedHash": "a58eb2443bc7272d6cd1b4d09644ec7a777f695b7ec9feddc918d66b944a1b91"
+    },
+    "research": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "computedHash": "cc0993d70b83bd356398569fb5204745d41ca30e0c7886f5df57b8ba4f4e588a"
+    },
+    "search": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "computedHash": "dffcec0ba919fe4bdecb9dda7b11a23b79a0185ad06c3cfd568a332828f774eb"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
+    },
+    "web-search": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "computedHash": "03f2bbcc8d5784554863233281235f0453506771515ad3baed942ccaf972939b"
+    }
+  }
+}
